@@ -21,7 +21,7 @@ export default function Layout({ children }) {
         <h3>{data.site.siteMetadata.title}</h3>
         <nav className="topnav">
           <Link to="/">Início</Link>
-          <Link to="/blog/">Blog</Link>
+          <Link to="/blog">Blog</Link>
         </nav>
       </div>
       <div className="main">
